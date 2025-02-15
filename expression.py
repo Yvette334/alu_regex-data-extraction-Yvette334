@@ -19,8 +19,7 @@ def extract_info(input_text, patterns):
         extracted_info[data_type] = re.findall(pattern, input_text)
     return extracted_info
 
-# Sample input text with various data types
-sample_input_text = """
+txt = """
     Email addresses:
     - user@example.com
     firstname.lastname@company.co.uk
@@ -50,7 +49,7 @@ sample_input_text = """
 """
 
 # Extract data from the sample text
-extracted_info = extract_info(sample_input_text, reg_patt)
+extracted_info = extract_info(txt, reg_patt)
 
 # Display data using the format
 output = ""
