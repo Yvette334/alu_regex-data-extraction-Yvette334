@@ -1,4 +1,4 @@
-mport re
+import re
 
 # Regular expressions for each type of data
 reg_patt = {
