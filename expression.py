@@ -56,10 +56,11 @@ extracted_info = extract_info(sample_input_text, reg_patt)
 output = ""
 
 for data_type, matches in extracted_info.items():
-    output += f"{data_type.replace('_', ' ').capitalize()}:\n"
+    output += "{}:\n".format(data_type.replace('_', ' ').capitalize())
     if matches:
         for match in matches:
-            output += f"- {match}\n"
+            output += "- {}\n".format(match)
+
     else:
         output += "None\n"
 
