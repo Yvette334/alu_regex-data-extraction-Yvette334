@@ -2,7 +2,7 @@
 
 ## Overview  
 
-This project is designed to extract specific types of data from large text sources using Regular Expressions. It is
+This project is designed to extract specific types of data from large text sources using Regular Expressions.
 
 ## Data Extracted  
 
