@@ -20,5 +20,5 @@ The script extracts the following types of data:
 
 The script scans text data and extracts relevant information based on predefined Regex patterns. The extracted data is then displayed in an organized format.
 
-Clone the Repository
+## Clone the Repository
 git clone <repository_url>
